@@ -1,0 +1,12 @@
+.spacer {
+  border: 1px solid red;
+}
+.type--horizontal {
+  display: inline-block;
+  height: 100vh;
+}
+.type--vertical {
+  border: 1px solid blue;
+  display: block;
+  width: 100%;
+}

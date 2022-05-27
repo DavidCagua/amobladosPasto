@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "lib",
-    "module": "esnext",
+    "module": "es2020",
+    "esModuleInterop": true,
     "lib": ["DOM", "ESNext"],
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
-    "target": "esnext",
+    "target": "es2015",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitReturns": true,

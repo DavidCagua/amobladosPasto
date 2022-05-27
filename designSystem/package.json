@@ -21,11 +21,12 @@
     "rollup-plugin-import-css": "^3.0.3",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.31.2",
+    "ts-node": "^10.8.0",
     "typescript": "^4.6.4"
   },
   "scripts": {
     "build": "node ./scripts/build-tokens && rollup -c",
-    "build:tokens": "node ./scripts/build-tokens",
+    "build:tokens": "ts-node ./scripts/build-tokens",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
