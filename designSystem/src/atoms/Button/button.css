@@ -3,6 +3,7 @@ button {
   border-radius: var(--border-radius-md);
   border: var(--border-width-thin) solid var(--color-base-transparent);
   color: var(--colors-white);
+  padding: 12px 24px;
 }
 .button:focus {
   box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
@@ -24,5 +25,5 @@ button {
   color: var(--colors-gray-900);
 }
 .button--rounded {
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--border-radius-full);
 }

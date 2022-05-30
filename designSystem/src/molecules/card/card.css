@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadows-down-lg);
+  max-width: 416px;
+}
+.card--img--container {
+  display: flex;
+}
+.card--info--container {
+  padding: 24px;
+}
+.card--img--container--img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+}
+.card--footer--container {
+  display: flex;
+  flex-direction: row;
+}
