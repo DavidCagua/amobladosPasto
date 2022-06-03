@@ -1,7 +1,7 @@
 import React from "react";
 import "./spacer.css";
 import classNames from "classnames";
-import { mapSize } from "./helpers";
+// import { mapSize } from "./helpers";
 import { choices } from "../../../tokens";
 
 export interface SpacerProps {
@@ -10,7 +10,6 @@ export interface SpacerProps {
 }
 
 const Spacer = ({ size = 12, type = "horizontal" }: SpacerProps) => {
-  const width = type == "horizontal" ? 100 : mapSize(size);
   // const height = 10;
   return (
     <div

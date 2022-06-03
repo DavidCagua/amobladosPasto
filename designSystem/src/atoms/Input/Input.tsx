@@ -1,8 +1,8 @@
 import React from "react";
 import "./input.css";
-import classNames from "classnames";
+// import classNames from "classnames";
 
-export interface ButtonProps {
+export interface InputProps {
   type?: "primary" | "secondary";
   rounded?: boolean;
   size?: "sm" | "md" | "lg";
@@ -10,14 +10,8 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-const Button = ({
-  type = "primary",
-  rounded = false,
-  size = "md",
-  placeholder,
-  ...props
-}: ButtonProps) => {
+const Input = ({ placeholder }: InputProps) => {
   return <input type="text" placeholder={placeholder}></input>;
 };
 
-export default Button;
+export default Input;

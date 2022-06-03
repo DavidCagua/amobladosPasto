@@ -21,7 +21,7 @@ const Button = ({
     <button
       className={classNames(
         "button",
-        { [`type--${type}`]: type },
+        { [`button--type-${type}`]: type },
         { [`button--${rounded ? "rounded" : ""}`]: rounded }
       )}
       {...props}

@@ -15,6 +15,6 @@
     "declaration": true,
     "moduleResolution": "node"
   },
-  "include": ["src"],
+  "include": ["index.ts"],
   "exclude": ["node_modules", "lib"]
 }

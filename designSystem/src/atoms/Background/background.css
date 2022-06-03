@@ -1,0 +1,40 @@
+.background {
+  width: 100%;
+  height: 100vh;
+}
+
+.backgroud--type-primary {
+  background-color: var(--colors-white);
+}
+.elipse {
+  position: relative;
+  overflow: hidden;
+}
+.elipse:after {
+  z-index: -1;
+  position: absolute;
+  width: 1033px;
+  height: 861px;
+  left: -680px;
+  top: 423px;
+  background: linear-gradient(
+    180deg,
+    var(--colors-brand-secondary) 0%,
+    var(--colors-white) 100%
+  );
+  filter: blur(500px);
+}
+.elipse2 {
+  z-index: -1;
+  position: absolute;
+  width: 1033px;
+  height: 861px;
+  left: 904px;
+  top: -519px;
+  background: linear-gradient(
+    180deg,
+    var(--colors-brand-tertiary) 0%,
+    var(--colors-white) 100%
+  );
+  filter: blur(500px);
+}

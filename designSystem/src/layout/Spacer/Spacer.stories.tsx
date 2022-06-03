@@ -8,9 +8,9 @@ export default {
   component: Spacer,
 } as ComponentMeta<typeof Spacer>;
 
-export const Horizontal: ComponentStory<typeof Spacer> = (args) => (
+export const Horizontal: ComponentStory<typeof Spacer> = () => (
   <Spacer size={40} type="horizontal" />
 );
-export const Vertical: ComponentStory<typeof Spacer> = (args) => (
+export const Vertical: ComponentStory<typeof Spacer> = () => (
   <Spacer size={1} type="vertical" />
 );

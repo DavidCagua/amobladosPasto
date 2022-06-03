@@ -3,7 +3,7 @@ import Ts from "rollup-plugin-typescript2";
 import postcss from "rollup-plugin-postcss";
 
 export default {
-  input: ["src/index.ts"],
+  input: ["index.ts"],
   output: {
     dir: "lib",
     format: "esm",
@@ -16,6 +16,6 @@ export default {
       extensions: [".css"],
     }),
   ],
-  // preserveModules: true,
+  preserveModules: true,
   external: ["react"],
 };

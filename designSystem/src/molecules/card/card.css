@@ -4,6 +4,7 @@
   border-radius: var(--border-radius-lg);
   box-shadow: var(--shadows-down-lg);
   max-width: 416px;
+  background: var(--colors-white);
 }
 .card--img--container {
   display: flex;

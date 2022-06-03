@@ -19,7 +19,7 @@ button {
   filter: brightness(0.9);
 }
 
-.type--secondary {
+.button--type-secondary {
   background: var(--colors-white);
   border: var(--border-width-thin) solid var(--colors-gray-900);
   color: var(--colors-gray-900);
